@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+unset JAVA_HOME
+
+exec ./build/install/your-interpreter/bin/your-interpreter "$@"
